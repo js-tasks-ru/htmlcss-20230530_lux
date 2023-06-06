@@ -1,1 +1,50 @@
-/* Стилизация кнопки */
+.btmp{
+    background-color: rgb(40, 40, 254);
+    color: aliceblue;
+}
+
+.btmp:hover{
+    background-color: rgb(0, 0, 194);
+    transition: background-color 0.6s;
+    cursor: pointer;
+}
+
+.btmpd:disabled {
+    background-color: rgb(43, 118, 247);
+    color: aliceblue;
+    opacity: 0.5;
+}
+
+.btms{
+    background-color: rgb(190, 1, 254);
+    color: aliceblue;
+}
+
+.btms:hover{
+    background-color: rgb(102, 5, 129);
+    transition: background-color 0.6s;
+    cursor: pointer;
+}
+
+.btmsd:disabled{
+    background-color: rgb(196, 92, 252);
+    color: aliceblue;
+}
+
+.btma {
+    opacity: 0.9;
+    border: none;
+    background-color: aliceblue;
+    border: 1px solid gray;
+}
+
+.btma:hover{
+    border: 2px solid black;
+    /* transition: border 0.6s; */
+    cursor: pointer;
+}
+
+.btmad:disabled{
+    cursor: pointer;
+    opacity: 0.8;
+}
