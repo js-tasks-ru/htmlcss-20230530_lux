@@ -1,50 +1,56 @@
 .btmp{
-    background-color: rgb(40, 40, 254);
+    background-color: #4263EB;
     color: aliceblue;
+    border-radius: 8px;
 }
 
 .btmp:hover{
-    background-color: rgb(0, 0, 194);
+    background-color: #2342C0;
     transition: background-color 0.6s;
     cursor: pointer;
 }
 
 .btmpd:disabled {
-    background-color: rgb(43, 118, 247);
+    background-color: #4263EB;
     color: aliceblue;
     opacity: 0.5;
+    border-radius: 8px;
+    cursor: not-allowed;
 }
 
 .btms{
-    background-color: rgb(190, 1, 254);
+    background-color: #7048E8;;
     color: aliceblue;
+    border-radius: 8px;
 }
 
 .btms:hover{
-    background-color: rgb(102, 5, 129);
+    background-color: #5028C6;
     transition: background-color 0.6s;
     cursor: pointer;
 }
 
 .btmsd:disabled{
-    background-color: rgb(196, 92, 252);
+    background-color: #7048E8;
     color: aliceblue;
+    opacity: 0.5;
+    border-radius: 8px;
+    cursor: not-allowed;
 }
 
 .btma {
-    opacity: 0.9;
-    border: none;
-    background-color: aliceblue;
-    border: 1px solid gray;
+    border: 1px solid #ACB5BD;
+    border-radius: 8px;
 }
 
 .btma:hover{
-    border: 2px solid black;
-    /* transition: border 0.6s; */
+    border: 1px solid #212429;
     cursor: pointer;
 }
 
 .btmad:disabled{
-    cursor: pointer;
+    cursor: not-allowed;
+    border: 1px solid #ACB5BD;
     opacity: 0.8;
+    border-radius: 8px;
 }
