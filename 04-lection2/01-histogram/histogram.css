@@ -35,19 +35,37 @@
 }
 
 .dad{
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-evenly;
     height: 85px;
 }
 
-.son{
+.scholl {
+    display: grid;
+    grid-template-columns: repeat(33, 10px);
+    margin: 10px;
+    align-items: end;
+}
+
+.son1{
     width: 9px;
     height: 50px;
     left: 563px;
     top: 640px;
     margin-left: 10px;
-
     background: #4263EB;
 }
+
+.son2{
+    width: 9px;
+    height: 30px;
+    margin-left: 10px;
+    background: #4263EB;
+}
+
+.son3{
+    width: 9px;
+    height: 40px;
+    margin-left: 10px;
+    background: #4263EB;
+}
+
 
