@@ -13,7 +13,7 @@
 .btmpd:disabled {
     background-color: #4263EB;
     color: aliceblue;
-    opacity: 0.5;
+    opacity: 0.5; 
     border-radius: 8px;
     cursor: not-allowed;
 }
