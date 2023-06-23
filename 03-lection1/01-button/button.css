@@ -1,1 +1,56 @@
-/* Стилизация кнопки */
+.btmp{
+    background-color: #4263EB;
+    color: aliceblue;
+    border-radius: 8px;
+}
+
+.btmp:hover{
+    background-color: #2342C0;
+    transition: background-color 0.6s;
+    cursor: pointer;
+}
+
+.btmpd:disabled {
+    background-color: #4263EB;
+    color: aliceblue;
+    opacity: 0.5; 
+    border-radius: 8px;
+    cursor: not-allowed;
+}
+
+.btms{
+    background-color: #7048E8;;
+    color: aliceblue;
+    border-radius: 8px;
+}
+
+.btms:hover{
+    background-color: #5028C6;
+    transition: background-color 0.6s;
+    cursor: pointer;
+}
+
+.btmsd:disabled{
+    background-color: #7048E8;
+    color: aliceblue;
+    opacity: 0.5;
+    border-radius: 8px;
+    cursor: not-allowed;
+}
+
+.btma {
+    border: 1px solid #ACB5BD;
+    border-radius: 8px;
+}
+
+.btma:hover{
+    border: 1px solid #212429;
+    cursor: pointer;
+}
+
+.btmad:disabled{
+    cursor: not-allowed;
+    border: 1px solid #ACB5BD;
+    opacity: 0.8;
+    border-radius: 8px;
+}
