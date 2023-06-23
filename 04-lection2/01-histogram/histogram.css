@@ -1,51 +1,49 @@
-.god{
+.body{
     box-sizing: border-box;
     position: absolute;
     width: 354px;
     height: 185px;
     left: 537px;
     top: 529px;
-    background: #FFFFFF;
+    background: #FFFFFF; 
 
     border: 1px solid #ACB5BD;
     border-radius: 8px;
 }
 
-.mom{
+.header{
     display: flex;
     justify-content: space-between;
-   
 }
 
-.douther {
+.people{
     height: 100px;
     width: 130px;
 }
 
-.viwe{
+.link{
     margin-top: 20px ;
     margin-right:20px ;
     margin-bottom:0 ;
     margin-left:0;
-
 }
 
-.orders{
+.people_orders{
     color: #ACB5BD;
 }
 
-.dad{
+.diagram{
     height: 85px;
 }
 
-.scholl {
+.diagram_body{
     display: grid;
     grid-template-columns: repeat(33, 10px);
     margin: 10px;
     align-items: end;
 }
 
-.son1{
+.diagram_body_result1{
     width: 9px;
     height: 50px;
     left: 563px;
@@ -54,14 +52,14 @@
     background: #4263EB;
 }
 
-.son2{
+.diagram_body_result2{
     width: 9px;
     height: 30px;
     margin-left: 10px;
     background: #4263EB;
 }
 
-.son3{
+.diagram_body_result3{
     width: 9px;
     height: 40px;
     margin-left: 10px;
