@@ -1,4 +1,4 @@
-.body{
+.histogram{
     box-sizing: border-box;
     position: absolute;
     width: 354px;
@@ -10,40 +10,40 @@
     border: 1px solid #ACB5BD;
     border-radius: 8px;
 }
-
-.header{
+ 
+.histogram__header{
     display: flex;
     justify-content: space-between;
 }
 
-.people{
+.histogram__title{
     height: 100px;
     width: 130px;
 }
 
-.link{
+.histogram__link{
     margin-top: 20px ;
     margin-right:20px ;
     margin-bottom:0 ;
     margin-left:0;
 }
 
-.people_orders{
+.histogram__subtitle_orders{
     color: #ACB5BD;
 }
 
-.diagram{
+.histogram__body{
     height: 85px;
 }
 
-.diagram_body{
+.histogram__chart{
     display: grid;
     grid-template-columns: repeat(33, 10px);
     margin: 10px;
     align-items: end;
 }
 
-.diagram_body_result1{
+.histogram__column_low{
     width: 9px;
     height: 50px;
     left: 563px;
@@ -52,14 +52,14 @@
     background: #4263EB;
 }
 
-.diagram_body_result2{
+.histogram__column_mid{
     width: 9px;
     height: 30px;
     margin-left: 10px;
     background: #4263EB;
 }
 
-.diagram_body_result3{
+.histogram__column_height{
     width: 9px;
     height: 40px;
     margin-left: 10px;
