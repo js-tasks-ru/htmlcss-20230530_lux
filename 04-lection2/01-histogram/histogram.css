@@ -1,0 +1,57 @@
+.histogram{
+    box-sizing: border-box;
+    background: #FFFFFF; 
+
+    padding-top: 16px;
+    padding-left: 24px;
+    padding-bottom:145px ;
+    padding-right:130px;
+
+    border: 1px solid #ACB5BD;
+    border-radius: 8px;
+}
+ 
+.histogram__header{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.histogram__link{
+    margin-top: 20px ;
+    margin-right:20px ;
+    margin-bottom:0 ;
+    margin-left:0;
+}
+
+.histogram__subtitle_orders{
+    color: #ACB5BD;
+}
+
+.histogram__chart{
+    display: grid;
+    grid-template-columns: repeat(33, 9px);
+    margin-top: 39px;
+    align-items: end;
+    gap: 1px;
+}
+
+.histogram__column{
+    background: #4263EB;
+
+}
+
+.histogram__column_low{
+    height: 100%;
+}
+
+.histogram__column_mid{
+    height: 50%;
+}
+
+.histogram__column_height{
+    height: 75%;
+}
+
+
